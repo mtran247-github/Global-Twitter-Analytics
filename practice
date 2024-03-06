@@ -1,0 +1,24 @@
+class Person:
+    def __init__(self, name, birthYear, favColour ):
+        self._name = name
+        self._birthYear = int(birthYear)
+        self._favColour = favColour
+
+    def __repr__(self):
+        return self._name + self._birthYear + self._favColour
+
+    def setFavColour(self, otherColour):
+        return self._favColour
+    def getName(self):
+        return self._name
+    def getBirthYear(self):
+        return self._birthYear
+
+
+c = Person("Molly", 1998)
+c.setFavColour("blue")
+print(c.getName())
+print(c.getBirthYear())
+print(c.setFavColour())
+
+
