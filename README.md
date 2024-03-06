@@ -12,9 +12,8 @@ The purpose of this program is to analyze Twitter data to gain insights into the
 
 ## Setup and Execution:
 1. Clone the repository from GitHub.
-2. Install the required Python libraries (tweepy) using pip:
-3. Run the program by executing the following command in the terminal:
-6. Follow the on-screen instructions to specify the keyword file and tweet file (keywords.txt and tweets.txt)
+2. Install the required Python library (tweepy) using pip
+3. Run the program by executing the following command in the terminal: Follow the on-screen instructions to specify the keyword file and tweet file (keywords.txt and tweets.txt)
 7. Try it with your own tweets file and see the results!
 
 
