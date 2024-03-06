@@ -6,10 +6,6 @@ This Python program performs sentiment analysis and geographical analysis on twe
 ## Purpose:
 The purpose of this program is to analyze Twitter data to gain insights into the sentiment of tweets and to understand the happiness level in different geographical regions. It can be used by businesses, researchers, and social media managers to gauge public sentiment, monitor brand perception, and identify trends in different time zones.
 
-## Features:
-- Performs sentiment analysis on tweets to determine happiness score.
-- Categorizes tweets based on their geographical location into different time zones.
-
 ## Setup and Execution:
 1. Clone the repository from GitHub.
 2. Install the required Python library (tweepy) using pip
@@ -20,9 +16,9 @@ The purpose of this program is to analyze Twitter data to gain insights into the
 ## Improvements:
 - this was written a few years back and was originally written because I wanted to know if certain geographical locations affected our mental health (living near water vs landlocked states).
 - If I were to improve this program to be more up-to-date I'd add:
-1. Twitter Search API: to fetch real-time tweets based on specific keywords, hashtags, or user mentions to access to a broader range of tweets in real-time
-2. Machine Learning: Naive Bayes, Support Vector Machines can learn from a large dataset of labeled tweets to better understand the context, sarcasm, and nuances of language used in tweets as opposed to a couple keywords
-3. OpenWeather API: to enrich tweet data with additional contextual information, such as weather conditions, location-based events, or demographic data
+1. **Twitter Search API**: to fetch real-time tweets based on specific keywords, hashtags, or user mentions to access to a broader range of tweets in real-time
+2. **Machine Learning**: Naive Bayes, Support Vector Machines can learn from a large dataset of labeled tweets to better understand the context, sarcasm, and nuances of language used in tweets as opposed to a couple keywords
+3. **OpenWeather API**: to enrich tweet data with additional contextual information, such as weather conditions, location-based events, or demographic data
    
     
 ## Application:
